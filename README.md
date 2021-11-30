@@ -101,7 +101,7 @@ install it from here https://github.com/electron/asar.
   ```
 
 - That's it. You will probably have to do this for every new version of Discord.
-  It might event break stuff completely, absolutely no guarantees on my side.
+  It might eventually break stuff completely, absolutely no guarantees on my side.
 
 - If you can't start Discord after this and you didn't backup stuff ;) then
   look at the Revert under here
