@@ -30,6 +30,7 @@ install it from here https://github.com/electron/asar.
 
   The current path should then look like this:
   `~/.config/discord/0.0.X/modules/discord_desktop_core`
+
 - In this directory there should be a few files, mainly `core.asar` and `index.js`
 - Run `asar extract core.asar core/`, this will unpack the `core.asar`
   into directory named `core`
@@ -101,6 +102,12 @@ install it from here https://github.com/electron/asar.
 
 - That's it. You will probably have to do this for every new version of Discord.
   It might event break stuff completely, absolutely no guarantees on my side.
+
+- If you can't start Discord after this and you didn't backup stuff ;) then
+  look at the Revert under here
+
+# Revert
+Just delete the `0.0.X` directory and Discord will pull it in again (thru self-updater)
 
 # Disclaimer
 
